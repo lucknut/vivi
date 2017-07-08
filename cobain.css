@@ -1,0 +1,26 @@
+.video-js {
+    width: auto !important;
+    height: auto !important;
+    padding-top: 56.25% !important;
+    min-height: 250px;
+    max-width: 100%;
+}
+
+.vjs-fullscreen {
+    padding-top: 0px !important;
+}
+
+#rcjsload_fe24df{
+    padding-top: 35px;
+}
+@media only screen and (max-width: 500px) {
+    .adsdisplay,.adsdisplay iframe {
+        height: 210px !important;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    #rcjsload_fe24df{
+        padding-top: 0px;
+    }
+
+}
